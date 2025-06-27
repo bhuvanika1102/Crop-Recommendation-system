@@ -1,16 +1,16 @@
-# 🌾 Crop Recommendation System
+#  Crop Recommendation System
 
 A machine learning-based system to predict the most suitable crop to grow based on environmental parameters like nitrogen, phosphorus, potassium levels, temperature, humidity, pH, and rainfall.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project leverages supervised machine learning models to classify and recommend crops based on real-time soil and weather conditions. It's ideal for modern agriculture solutions where farmers can make data-driven decisions.
 
 ---
 
-## 🧠 Algorithms Used
+##  Algorithms Used
 
 The following models were trained and evaluated:
 
@@ -22,7 +22,7 @@ The following models were trained and evaluated:
 
 ---
 
-## ✅ Model Accuracy
+##  Model Accuracy
 
 | Algorithm               | Accuracy   |
 |------------------------|------------|
@@ -34,7 +34,7 @@ The following models were trained and evaluated:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **File:** `crop_recommendation.csv`
 - **Samples:** 2200
@@ -52,7 +52,7 @@ The dataset is clean, balanced, and contains no missing or duplicate values.
 
 ---
 
-## 🧹 Preprocessing Steps
+##  Preprocessing Steps
 
 - Label encoding (`label` → `label_num`)
 - Train-test split (70%-30%)
@@ -60,7 +60,7 @@ The dataset is clean, balanced, and contains no missing or duplicate values.
 
 ---
 
-## 🚀 Prediction Function
+##  Prediction Function
 
 A reusable function for prediction:
 
@@ -71,7 +71,7 @@ def predict_crop(N, P, K, temperature, humidity, pH, rainfall):
     return prediction[0]
 ```
 
-### 🧪 Example Prediction
+###  Example Prediction
 
 ```python
 predict_crop(7, 6, 7, 25.67, 50.24, 8.96, 88.88)
@@ -80,7 +80,7 @@ predict_crop(7, 6, 7, 25.67, 50.24, 8.96, 88.88)
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ```bash
 numpy
@@ -98,7 +98,7 @@ pip install <requirement>
 
 ---
 
-## 💻 How to Run
+##  How to Run
 
 1. Clone this repo
 2. Place `crop_recommendation.csv` in the working directory
@@ -109,7 +109,7 @@ python crop_prediction.py
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 - Distribution plots using Seaborn
 - Correlation matrix
@@ -117,7 +117,7 @@ python crop_prediction.py
 
 ---
 
-## 📚 References
+##  References
 
 - [Kaggle - Crop Recommendation Dataset](https://www.kaggle.com/)
 - [Scikit-learn Docs](https://scikit-learn.org/)
